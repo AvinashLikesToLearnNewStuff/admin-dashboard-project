@@ -16,3 +16,17 @@ body{
   border: 1px solid red;  /*for debugging only, comment out later*/
 }
 
+.right{
+  display: grid;
+  grid-template-rows:1fr 4fr;
+
+  grid-template-areas: "header"
+  "content";
+}
+
+.header,.content{
+
+  border: 0.5px dashed orange;  /*for debugging only, comment out later*/
+}
+
+
