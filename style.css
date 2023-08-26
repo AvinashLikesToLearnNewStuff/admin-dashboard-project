@@ -54,11 +54,13 @@ body{
 }
 .group1,.group2{
   display:grid;
+  margin:1% 0;
 }
 .menuItem{
 
   height:25px
   width:175px;
   border: 1px solid black;
+
 }
 
