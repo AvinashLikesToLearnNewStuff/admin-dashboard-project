@@ -35,8 +35,29 @@ body{
   grid-template-rows: 1fr 8fr;
   grid-template-areas:"logo"
   "menu";
-
   height:100vh
 }
 
 
+
+.menu-items{
+  display:grid;
+  grid-template-rows: repeat(8,1fr);
+  gap:10px
+
+}
+.logo{
+
+  height:25px
+  width:175px;
+  border: 1px solid green;
+}
+.group1,.group2{
+  display:grid;
+}
+.menuItem{
+
+  height:25px
+  width:175px;
+  border: 1px solid red;
+}
