@@ -54,15 +54,11 @@ font-size:62.5%
   width:175px;
   border: 1px solid green;
 }
-.group1,.group2{
-  display:grid;
-  margin:1% 0;
-}
 .menuItem{
 
   border: 1px solid black;
 
 }
-.group2{
-  margin-bottom: 10rem;
+.item9{
+  margin-bottom:10rem;
 }
