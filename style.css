@@ -42,7 +42,6 @@ body{
 
 .menu-items{
   display:grid;
-  grid-template-rows: repeat(8,1fr);
   gap:10px
 
 }
