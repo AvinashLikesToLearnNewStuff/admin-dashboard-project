@@ -3,11 +3,14 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 
+
+
 }
 body{
   display: grid;
   grid-template-columns:1fr 4fr; 
   border: 1px solid #000;  /*for debugging only, comment out later*/
+font-size:62.5%
 }
 
 
@@ -60,4 +63,6 @@ body{
   border: 1px solid black;
 
 }
-
+.group2{
+  margin-bottom: 10rem;
+}
