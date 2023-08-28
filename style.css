@@ -73,3 +73,15 @@ font-size:62.5%
   
   grid-template-areas:"searchbar" "profile";
 }
+.search-top{
+  
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  align-items:center;
+  justify-items:space-between;
+}
+.search-icon{
+  justify-self:start;
+}
+
