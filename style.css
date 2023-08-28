@@ -83,5 +83,8 @@ font-size:62.5%
 }
 .search-icon{
   justify-self:start;
+margin-left: 20%;
+}
+.search{
 }
 
