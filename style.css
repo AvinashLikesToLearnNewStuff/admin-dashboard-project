@@ -76,14 +76,14 @@ font-size:62.5%
 .search-top{
   
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
 
   align-items:center;
   justify-items:space-between;
 }
 .search-icon{
-  justify-self:start;
-margin-left: 20%;
+  justify-self:end;
+margin-right: 20%;
 }
 .search{
 }
