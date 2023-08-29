@@ -99,8 +99,8 @@ margin-right: 20%;
 }
 .profile-pic2{
 
-  justify-self:end;
-margin-right: 20%;
+  justify-self:start;
+margin-left: 20%;
 
   width:auto;
   height:4vw;
@@ -113,10 +113,12 @@ margin-right: 20%;
 }
 .content{
   display:grid;
-  grid-template-columns:1fr 1fr ;
+  grid-template-columns:10% 20% 40%;
   grid-auto-flow:column;
+  justify-items:start;
+  justify-content:start;
   align-items:center;
-
+  gap:10px;
 
 }
 .profile-pic{
@@ -124,8 +126,12 @@ margin-right: 20%;
 .searchHeadButtons{
 
   background-color: var(--button-color);
-  height:50px;
-  width:200px;
+  height:auto;
+  width:8rem;
+  justify-self:end;
+  margin: 1em;
+  padding: 1em 2em;
+  border-radius:100px;
 }
  
 
