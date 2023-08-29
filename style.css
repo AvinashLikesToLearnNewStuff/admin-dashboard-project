@@ -95,11 +95,13 @@ margin-right: 20%;
   justify-self:end;
 margin-right: 20%;
 }
-.profile-pic{
+.profile-pic2{
 
   justify-self:end;
 margin-right: 20%;
 
+  width:auto;
+  height:4vw;
 }
 .user-name{
 
@@ -112,6 +114,5 @@ margin-right: 20%;
   grid-auto-flow:column;
 }
 .profile-pic{
-  width:80px;
-  height:80px;
 }
+
