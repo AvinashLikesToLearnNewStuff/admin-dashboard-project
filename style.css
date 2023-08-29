@@ -138,3 +138,9 @@ margin-left: auto;
 .person-name{
   font-size:24px
 }
+.main-body{
+
+  border: 2px solid black ;
+  display:grid;
+  height:80vh; /* this is just for now, remove this later*/
+}
