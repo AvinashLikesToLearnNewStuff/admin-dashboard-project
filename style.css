@@ -162,8 +162,19 @@ margin-left: auto;
 
 }
 .announcements-div{
+  padding:10%;
 
   grid-area:top;
+  display:flex;
+  flex-direction:column;
+}
+.announcements-div-items{
+
+  border:2px solid red;
+  display:flex;
+  flex-direction:column;
+  border-radius:8px;
+
 }
 .trending-div{
 
