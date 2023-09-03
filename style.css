@@ -40,14 +40,15 @@ font-size:62.5%
   grid-template-rows: 1fr 8fr;
   grid-template-areas:"logo"
   "menu";
-  height:100vh
+  height:100vh;
+  background:var(--button-color);
 }
 
 
 
 .menu-items{
   display:grid;
-  gap:10px
+  gap:10px;
 
 }
 .logo{
