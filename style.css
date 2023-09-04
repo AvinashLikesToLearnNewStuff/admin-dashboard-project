@@ -36,6 +36,7 @@ font-size:62.5%
 
   grid-template-areas: "header"
   "content";
+
 }
 
 .header,.content{
@@ -202,4 +203,13 @@ margin-left: auto;
 
 .card-img{
   width:50px;
+}
+.dashboard-logo-svg{
+filter: brightness(0) invert(1);
+height:20%;
+width:20%;
+}
+.logo-div{
+  display:flex;
+  align-items:center;
 }
