@@ -12,10 +12,6 @@ box-sizing: border-box;
 body{
   display: grid;
   grid-template-columns:1fr 4fr; 
-  grid-template-rows:1.5fr 3fr; 
-  grid-template-areas: 
-  "left right"
-  "left right";
   border: 1px solid #000;  /*for debugging only, comment out later*/
 font-size:62.5%
 }
@@ -25,12 +21,8 @@ font-size:62.5%
   height: 100vh;
   border: 1px solid red;  /*for debugging only, comment out later*/
 }
-.left{
-  grid-area:left;
-}
 
 .right{
-  grid-area:right;
   display: grid;
   grid-template-rows:1fr 4fr;
 
@@ -49,6 +41,7 @@ font-size:62.5%
   grid-template-areas:"logo"
   "menu";
   height:100vh;
+
   background:var(--button-color);
 }
 
@@ -151,11 +144,11 @@ margin-left: auto;
 
   border: 2px solid black ;
   display:grid;
+  height:80vh; /* this is just for now, remove this later*/
   grid-template-columns: 75% 25%;
   grid-template-areas:'left right'
   'left right';
 }
-
 
 .main-content{
 
@@ -186,7 +179,7 @@ margin-left: auto;
 
 }
 .trending-div{
-  display: none;
+
   grid-area:bottom;
 }
 
