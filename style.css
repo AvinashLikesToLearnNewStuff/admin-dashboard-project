@@ -151,7 +151,6 @@ margin-left: auto;
 
   border: 2px solid black ;
   display:grid;
-  height:80vh; /* this is just for now, remove this later*/
   grid-template-columns: 75% 25%;
   grid-template-areas:'left right'
   'left right';
