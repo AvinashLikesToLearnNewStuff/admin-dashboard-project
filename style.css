@@ -218,7 +218,7 @@ width:20%;
   display:flex;
   align-items:center;
   justify-content:flex-start;
-  font-size:20px;
+  font-size:1.25rem;
   margin-left:1rem;
 }
 
@@ -240,5 +240,5 @@ filter: brightness(0) invert(1);
 }
 .menuItem > img{
 
-  width: 20px;
+  width: 1.25rem;
 }
