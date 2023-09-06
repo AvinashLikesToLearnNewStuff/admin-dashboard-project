@@ -1,5 +1,6 @@
 :root{
 --button-color: #1992d4;
+--whitish-background: rgb(136,136,146);
 }
 *{
 margin: 0;
