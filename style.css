@@ -256,7 +256,10 @@ margin-right: 6px;
 .dashboard-logo-svg + p{
   font-size:20px;
   font-weight: bold;
+  padding-top: 6px;
 }
 .menuItem.logo-div{
-  padding-left: 5px;
+  align-items: flex-start;
+  padding-top: 6px;
+  margin-left: 6px;
 }
