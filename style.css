@@ -5,11 +5,14 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-
-
-
 }
+@font-face{
+  font-family:"Roboto";
+  src:url('./Resources/fonts/Roboto-Regular.ttf');
+}
+
 body{
+
   display: grid;
   grid-template-columns:1fr 4fr; 
   grid-template-rows:1.5fr 3fr; 
