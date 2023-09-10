@@ -1,6 +1,7 @@
 :root{
 --button-color: #1992d4;
 --whitish-background: rgb(136,136,146);
+--search-bar-colour: rgba(226,232,240,255);
 }
 *{
 margin: 0;
@@ -100,8 +101,11 @@ margin-right: 20%;
 }
 .search{
   margin: 0 30%  0 0 ;
-  border-radius:12px
+  border: 1px solid var(--search-bar-colour);
+  border-radius:12px;
+  background-color: var(--search-bar-colour);
 }
+
 
 .bell-icon{
 
