@@ -94,7 +94,7 @@ font-size:62.5%
   justify-items:space-between;
 }
 .search-icon{
-  width:60%;
+  width:66.67%;
   justify-self:end;
 margin-right: 20%;
 }
@@ -266,3 +266,4 @@ margin-right: 6px;
   padding-top: 6px;
   margin-left: 6px;
 }
+
