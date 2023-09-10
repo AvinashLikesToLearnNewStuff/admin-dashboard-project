@@ -102,8 +102,10 @@ margin-right: 20%;
 .search{
   margin: 0 30%  0 0 ;
   border: 1px solid var(--search-bar-colour);
-  border-radius:12px;
+  border-radius:16px;
   background-color: var(--search-bar-colour);
+  height: 40%;
+  padding-left:12px;
 }
 
 
