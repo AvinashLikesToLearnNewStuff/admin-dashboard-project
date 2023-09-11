@@ -42,11 +42,6 @@ font-size:62.5%
 
 }
 .header{
- grid-row-start:1; 
- grid-row-end:2; 
-
- grid-column-start:1; 
- grid-column-end:2; 
  grid-area:header;
 }
 
@@ -90,7 +85,7 @@ font-size:62.5%
 
 .header{
   display: grid;
-  grid-template-rows: 10% 30%  ;
+  grid-template-rows: 0.5fr 1fr ;
   
   grid-template-areas:"searchbar"  "searchbar-bottom"  ;
 }
@@ -122,8 +117,6 @@ margin-right: 20%;
 
   justify-self:end;
 margin-right: 20%;
-}
-.bell-icon img{
   width:66%;
 }
 .profile-pic2{
