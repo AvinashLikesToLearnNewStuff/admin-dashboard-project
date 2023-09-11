@@ -156,8 +156,9 @@ font-weight: bold;
 .searchHeadButtons{
 
   background-color: var(--button-color);
+  border: 0 solid #000;
   height:auto;
-  width:8rem;
+  width:6rem;
   justify-self:end;
   margin: 0em;
   padding: 1em 2em;
