@@ -82,12 +82,13 @@ font-size:62.5%
 
 .header{
   display: grid;
-  grid-template-rows:1fr 0.75fr;
+  grid-template-rows: 10% 10% 80% ;
   
-  grid-template-areas:"searchbar" "profile";
+  grid-template-areas:"searchbar"  "searchbar-bottom"    "profile";
 }
 .search-top{
   
+  grid-area:searchbar;
   display:grid;
   grid-template-columns: .25fr 3fr .25fr .25fr 1fr;
 
@@ -137,6 +138,7 @@ font-family:'Roboto',sans-serif;
   margin-left:5%;
 }
 .content{
+  grid-area:searchbar-bottom;
   display:grid;
   grid-template-columns:6% 20% 40%;
   grid-auto-flow:column;
