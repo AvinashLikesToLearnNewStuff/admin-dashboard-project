@@ -114,6 +114,9 @@ margin-right: 20%;
   justify-self:end;
 margin-right: 20%;
 }
+.bell-icon img{
+  width:66%;
+}
 .profile-pic2{
 
   justify-self:start;
@@ -122,15 +125,20 @@ margin-left: auto;
   width:auto;
   height:4vw;
 }
+.profile-pic img {
+  width:88%;
+}
 .user-name{
 
   justify-self:start;
+  font-size:16px;
+font-family:'Roboto',sans-serif;
 
-  margin-left:10%;
+  margin-left:5%;
 }
 .content{
   display:grid;
-  grid-template-columns:10% 20% 40%;
+  grid-template-columns:6% 20% 40%;
   grid-auto-flow:column;
   justify-items:start;
   justify-content:start;
@@ -154,7 +162,8 @@ margin-left: auto;
  
 
 .person-name{
-  font-size:24px
+  font-size:16px;
+  font-family:'Roboto',sans-serif;
 }
 .main-body{
 
