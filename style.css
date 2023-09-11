@@ -41,6 +41,14 @@ font-size:62.5%
   "content";
 
 }
+.header{
+ grid-row-start:1; 
+ grid-row-end:2; 
+
+ grid-column-start:1; 
+ grid-column-end:2; 
+ grid-area:header;
+}
 
 .header,.content{
 
@@ -82,9 +90,9 @@ font-size:62.5%
 
 .header{
   display: grid;
-  grid-template-rows: 10% 10% 80% ;
+  grid-template-rows: 10% 30%  ;
   
-  grid-template-areas:"searchbar"  "searchbar-bottom"    "profile";
+  grid-template-areas:"searchbar"  "searchbar-bottom"  ;
 }
 .search-top{
   
@@ -168,8 +176,6 @@ font-family:'Roboto',sans-serif;
   font-family:'Roboto',sans-serif;
 }
 .main-body{
-
-  border: 2px solid black ;
   display:grid;
   grid-template-columns: 75% 25%;
   grid-template-areas:'left right'
