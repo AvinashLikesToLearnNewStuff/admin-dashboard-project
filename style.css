@@ -91,6 +91,7 @@ font-size:62.5%
 }
 .search-top{
   
+  margin-top: 10px;
   grid-area:searchbar;
   display:grid;
   grid-template-columns: .25fr 3fr .25fr .25fr .65fr;
