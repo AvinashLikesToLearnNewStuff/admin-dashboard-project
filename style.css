@@ -307,11 +307,15 @@ margin-right: 6px;
 }
 .projects{
   grid-area:body;
+  display: grid;
   grid-template-rows:10% 90%;
 }
 
+.articles-heading{
+
+}
+
 .articles{
-border: 1px solid blue;
 display: grid;
 grid-template-columns: repeat(2,autofill(10px, 1fr));
 /*grid-template-areas:"article1 article2""article3 article4" "article5 article6";*/
