@@ -310,6 +310,7 @@ margin-right: 6px;
 border: 1px solid blue;
 grid-area:body;
 display: grid;
-grid-template-areas:"article1 article2""article3 article4" "article5 article6";
+/*grid-template-areas:"article1 article2""article3 article4" "article5 article6";*/
+
 }
 
