@@ -2,6 +2,7 @@
 --button-color: #1992d4;
 --whitish-background: rgb(136,136,146);
 --search-bar-colour: rgba(226,232,240,255);
+--main-colur:#E2E8F0;
 }
 *{
 margin: 0;
@@ -195,6 +196,7 @@ font-weight: bold;
   grid-template-rows:1fr 1fr;
 padding: 30px 20px 40px 20px;
 grid-template-areas: "body right""body right";
+background-color: var(--main-colur);
 }
 
 
@@ -321,7 +323,7 @@ font-weight: 500;
 
 .articles{
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(10px, 400px));
 
 /*grid-template-areas:"article1 article2""article3 article4" "article5 article6";*/
 }
