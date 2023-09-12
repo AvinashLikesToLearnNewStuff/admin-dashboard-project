@@ -330,6 +330,7 @@ grid-template-columns: repeat(auto-fit, minmax(10px, 400px));
 
 .article{
 
+  background-color: white;
   display: flex;
   flex-direction: column;
 padding: 30px 20px 20px 20px;
