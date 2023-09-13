@@ -209,7 +209,7 @@ background-color: var(--main-colur);
   grid-area:right;
 
   display:grid;
-  grid-template-rows:50% 50%;
+  grid-template-rows:52% 50%;
   grid-template-areas: "top" "bottom";
 
 }
