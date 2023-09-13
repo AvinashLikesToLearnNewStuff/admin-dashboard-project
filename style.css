@@ -334,6 +334,8 @@ display: grid;
 .article{
 
 
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #88c7ff, #88c7ff 2%, transparent 2%, transparent 100%) ; 
   background-color: white;
   display: flex;
   flex-direction: column;
