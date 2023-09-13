@@ -14,7 +14,7 @@ box-sizing: border-box;
   src:url('./Resources/fonts/Roboto-Regular.ttf');
 }
 
-body{
+.container{
 
   display: grid;
   grid-template-columns:1fr 4fr; 
