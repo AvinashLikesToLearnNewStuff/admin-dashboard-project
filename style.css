@@ -216,7 +216,6 @@ background-color: var(--main-colur);
 
 }
 .announcements-div{
-  padding:10%;
 
   grid-area:top;
   display:flex;
@@ -231,7 +230,6 @@ background-color: var(--main-colur);
 
 }
 .trending-div{
-  display: none;
   grid-area:bottom;
 }
 
