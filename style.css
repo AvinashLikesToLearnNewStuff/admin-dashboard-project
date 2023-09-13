@@ -194,7 +194,7 @@ font-weight: bold;
   display:grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows:1fr 1fr;
-padding: 30px 20px 10px 20px;
+padding: 20px 20px 10px 20px;
 grid-template-areas: "body right""body right";
 background-color: var(--main-colur);
 }
